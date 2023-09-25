@@ -21,7 +21,7 @@ import argparse
 def setup_args(parser):
     parser.add_argument(
         "--lama_config", type=str,
-        default="./third_party/lama/configs/prediction/default.yaml",
+        default="./lama/configs/prediction/default.yaml",
         help="The path to the config file of lama model. "
              "Default: the config of big-lama",
     )
